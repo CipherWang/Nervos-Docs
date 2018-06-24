@@ -1,15 +1,16 @@
-# 欢迎来到 Nervos Network
+# Welcome to the world of Nervos Network
 
-这个页面会对Nervos网络做整体介绍，并且提供Nervos网络生态所有组件的目录索引。
+This page will give an introduction to Nervos Network as well as all the components.
+An index is given to lead you to the information you need.
 
 [AppChain](zh-cn/appchain/get-started/intro.md)  
-Nervos AppChain 是很牛逼的一套搭链完全解决方案。
+Nervos AppChain is a comprehensive soultion for building application-oriented blockchain.
 
 [CITA](zh-cn/cita/cita/welcome.md)  
-CITA 是很牛逼一个区块链内核。
+CITA is a blockchain kernel.
 
 Neuron  
-Neuron 是Nervos网络的使用入口，也就是区块链钱包。
+Neuron is the entrance to Nervos Network, in the form of a smartphone wallet.
 
 Microcope  
-Microscope 是Nervos网络的观察窗口，也就是区块链浏览器。
+Microscope is the oberving windows of Nervos Network, in the form of a blockchain explorer.
