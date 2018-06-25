@@ -6,8 +6,6 @@ var common = {
   subMaxLevel: 6,
   loadNavbar: true,
 
-  logo:'#/_media/nervos.svg',
-
   homepage: 'zh-CN/nervos.md',
 
 //   coverpage: true,
