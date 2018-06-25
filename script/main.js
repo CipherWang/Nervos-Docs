@@ -1,5 +1,5 @@
 var initDocsify = function () {
-    var configs = [search, common]
+    var configs = [common,customization]
     var docsify = {}
     configs.forEach(function (conf) {
         _.assign(docsify, conf)

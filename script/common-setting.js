@@ -1,12 +1,12 @@
-var search = {
+var common = {
+    
+    loadSidebar: true,
+    autoHeader: true,
+    subMaxLevel: 6,
+    loadNavbar: true,
+    basePath: './',
+    
     // search: 'auto', // 默认值
-
-    // search: [
-    //   '/', // => /README.md
-    //   // '/guide', // => /guide.md
-    //   // '/get-started', // => /get-started.md
-    //   '/zh-CN/', // => /zh-CN/README.md
-    // ],
 
     // 完整配置参数
     search: {
@@ -31,4 +31,6 @@ var search = {
         // 搜索标题的最大程级, 1 - 6
         depth: 6,
     },
+
+
 }
