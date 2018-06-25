@@ -3,10 +3,10 @@
 This page will give an introduction to Nervos Network as well as all the components.
 An index is given to lead you to the information you need.
 
-[AppChain](zh-cn/appchain/get-started/intro.md)  
+[AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)  
 Nervos AppChain is a comprehensive soultion for building application-oriented blockchain.
 
-[CITA](zh-cn/cita/cita/welcome.md)  
+[CITA]()  
 CITA is a blockchain kernel.
 
 Neuron  
