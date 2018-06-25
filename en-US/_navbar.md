@@ -1,6 +1,8 @@
 * Documents
+  * [Nervos Network]()
   * [AppChain]()
   * [CITA]()
 * Language
-  * [English](/en-us/nervos)
   * [中文](/zh-cn/nervos)
+  * [English](/en-us/nervos)
+  
