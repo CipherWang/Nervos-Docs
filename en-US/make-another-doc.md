@@ -59,8 +59,6 @@ wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/custom
 
 By configuring the `script/customization-seting.js` you can make some configurations. 
 
-For details please refer [docsify's document](https://docsify.js.org/#/).
-
 ### Give It a Try!
 
 Install docsify-cli first.
@@ -76,10 +74,6 @@ docsify serve
 ```
 
 Open your browser and enter `http://localhost:3000/` to find your document site.
-
-### More...
-
-You also need to add _navbar.md and _sidebar.md as mentioned above. You can take the files in this repo for an example.
 
 ## How to put it on Github Page
 
