@@ -6,29 +6,29 @@ var common = {
     loadNavbar: true,
     basePath: './',
     
-    // search: 'auto', // 默认值
+    // search: 'auto',
 
-    // 完整配置参数
+    // configuration for searching plugin
     search: {
-        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        maxAge: 86400000, // expiration time in milliseconds, one day by default
         // paths: [
         // '/',
         // ], // or 'auto'
 
-        // 支持本地化
+        // localization
         placeholder: {
             '/zh-CN/': '搜索',
             '/': 'Type to search',
         },
 
 
-        // 支持本地化
+        // localization
         noData: {
             '/zh-CN/': '找不到结果',
             '/': 'No Results',
         },
 
-        // 搜索标题的最大程级, 1 - 6
+        // depth of the maximum searching title levels
         depth: 6,
     },
 
