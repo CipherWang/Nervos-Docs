@@ -15,7 +15,7 @@ Document files are written in Markdown language. Generally speaking, they should
 The one in the root folder should use the default language (zh-CN in our case).
 
 ## How to make another Nervos related document
-1. run this script.
+### run this script.
 ```
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/index.html -O index.html -q —show-progress
 mkdir ./script/
@@ -23,7 +23,8 @@ wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/utils.
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/main.js -O ./script/main.js -q —show-progress
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/common-setting.js -O ./script/common-setting.js -q —show-progress
 ```
-2. Do some minor customizations
+### Do some minor customizations
+
 By configuring this part of code you can make some minor configurations, for detail please refer docsify's document (https://docsify.js.org/#/).
 ```
 var customization = {
@@ -35,7 +36,7 @@ var customization = {
 }
 ```
 
-3. Give it a try!
+### Give it a try!
 
 Install docsify-cli first.
 ```
@@ -46,7 +47,7 @@ Then run this command to start the document site service.
 ```
 docsify serve
 ```
-4. More...
+### More...
 
 You also need to add _navbar.md and _sidebar.md as mentioned above. You can take the files in this repo for an example.
 
