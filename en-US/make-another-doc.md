@@ -48,6 +48,7 @@ I have faith in you.
 ### Get the Files
 ```
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/index.html -O index.html
+touch .nojekyll
 mkdir ./script/
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/utils.js -O ./script/utils.js
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/main.js -O ./script/main.js
