@@ -1,2 +1,2 @@
-- [AppChain](zh-cn/appchain/get-started/intro.md)
-- [CITA](zh-cn/cita/cita/welcome.md)
+- [AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)
+- [CITA]()

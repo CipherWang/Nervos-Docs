@@ -3,5 +3,5 @@
   * [AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)
   * [CITA]()
 * 语言
-  * [中文](/zh-cn/nervos)
-  * [English](/en-us/nervos)
+  * [中文](/zh-CN/nervos)
+  * [English](/en-US/nervos)
