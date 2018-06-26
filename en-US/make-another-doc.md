@@ -39,6 +39,11 @@ The `repo-name/docs` or `gh-pages branch` should be organized in a structure lik
 
 If you want to link to one of the markdown files, the path would be something like: `[First Markdown](/zh-CN/V0.0.1/first)`
 
+### Sidebar and Navibar Files
+You can learn how do it by just simply refering the `_navbar.md` and `_sidebar.md` files in [this repo](https://github.com/cryptape/Nervos-Docs) as an example.
+
+I have faith in you.
+
 ## How to make the website
 ### Get the Files
 ```
@@ -48,8 +53,6 @@ wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/utils.
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/main.js -O ./script/main.js
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/common-setting.js -O ./script/common-setting.js
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/_sidebar.md -O _sidebar.md
-wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/_navbar.md -O _navbar.md
-wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/.nojekyll -O .nojekyll
 ```
 ### Do Some Customizations
 
