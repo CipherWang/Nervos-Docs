@@ -14,3 +14,7 @@ Neuron is the entrance to Nervos Network, in the form of a smartphone wallet.
 
 Microcope  
 Microscope is the oberving windows of Nervos Network, in the form of a blockchain explorer.
+
+
+
+[Here shows you how to make another Nervos website like this one](/en-US/make-another-doc)
