@@ -52,7 +52,7 @@ mkdir ./script/
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/utils.js -O ./script/utils.js
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/main.js -O ./script/main.js
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/common-setting.js -O ./script/common-setting.js
-wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/_sidebar.md -O _sidebar.md
+wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/customization-setting.js -O ./script/customization-setting.js
 ```
 ### Do Some Customizations
 
