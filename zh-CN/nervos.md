@@ -5,7 +5,7 @@
 [AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)  
 Nervos AppChain 是很牛逼的一套搭链完全解决方案。
 
-[CITA]()  
+CITA  
 CITA 是很牛逼一个区块链内核。
 
 Neuron  

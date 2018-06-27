@@ -6,7 +6,7 @@ An index is given to lead you to the information you need.
 [AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)  
 Nervos AppChain is a comprehensive soultion for building application-oriented blockchain.
 
-[CITA]()  
+CITA  
 CITA is a blockchain kernel.
 
 Neuron  

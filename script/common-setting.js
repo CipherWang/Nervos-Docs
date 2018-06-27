@@ -1,12 +1,18 @@
 var common = {
-    
+
     loadSidebar: true,
     autoHeader: true,
     subMaxLevel: 6,
     loadNavbar: true,
     basePath: './',
-    
+
     // search: 'auto',
+
+    // the default 
+    alias: {
+        '/_sidebar.md': `/${default_language}/_sidebar.md`,
+        '/_navbar.md': `/${default_language}/_navbar.md`,
+    },
 
     // configuration for searching plugin
     search: {
