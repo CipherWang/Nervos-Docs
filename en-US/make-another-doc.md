@@ -54,6 +54,7 @@ wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/utils.
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/main.js -O ./script/main.js
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/common-setting.js -O ./script/common-setting.js
 wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/customization-setting.js -O ./script/customization-setting.js
+wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/customization-setting.js -O ./script/customization-value.js
 ```
 ### Do Some Customizations
 
