@@ -1,3 +1,7 @@
+// this file is NOT for customization
+// these are the default settings for all the Nervos Documents
+// you can overwrite settings in this page by set them again in customization.js
+
 var common = {
 
     loadSidebar: true,
