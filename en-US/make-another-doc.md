@@ -1,13 +1,13 @@
 # How to Make Another Nervos Dcoument Website in Your Project Repo
 
 ## Docsify & Github Page
-Nervos Documentents are using an easy generated document site framework [Docsify](https://docsify.js.org/#/). It's an awesome project and we really appreciate the the contributor of this project.
+Nervos Documentents are using an easy generated document site framework [Docsify](https://docsify.js.org/#/). It's an awesome project and we really appreciate the the contributors of this project.
 
-Document files are written in Markdown language. Generally speaking, they should be placed inside of a `zh-CN` folder for the purpose of localization.
+Document files are written in Markdown language.
 
 We use github page for hosting our document sites. On the one hand it enables the realtime updating, version control and online editing; on the other hand, their server are much more relible than ours. After all, they are actually Microsoft now.
 
-## How to Orgnize the Document Files
+## How to Orgnize the Files
 
 ### Necessary Files for Docsify
 `index.html` is the only necessary file for starting a Docsify site. All the needed JavaScript configuration files are dynamicly involved from this repo.
@@ -59,8 +59,6 @@ wget https://raw.githubusercontent.com/cryptape/Nervos-Docs/master/script/custom
 
 By configuring the `script/customization-seting.js` you can make some configurations. 
 
-For details please refer [docsify's document](https://docsify.js.org/#/).
-
 ### Give It a Try!
 
 Install docsify-cli first.
@@ -76,10 +74,6 @@ docsify serve
 ```
 
 Open your browser and enter `http://localhost:3000/` to find your document site.
-
-### More...
-
-You also need to add _navbar.md and _sidebar.md as mentioned above. You can take the files in this repo for an example.
 
 ## How to put it on Github Page
 
