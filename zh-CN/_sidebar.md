@@ -1,3 +1,2 @@
 - [AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)
 - CITA
-- 这是中文版的
