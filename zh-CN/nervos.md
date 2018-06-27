@@ -13,6 +13,3 @@ Neuron 是Nervos网络的使用入口，也就是区块链钱包。
 
 Microcope  
 Microscope 是Nervos网络的观察窗口，也就是区块链浏览器。
-
-
-[这里讲解了如何给你的Nervos生态项目制作另一个文档网站](/en-US/make-another-doc)
