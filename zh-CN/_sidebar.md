@@ -1,2 +1,1 @@
-- [AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)
-- CITA
+- [Nerovs 简介](zh-CN/nervos.md)
