@@ -6,7 +6,7 @@ var common = {
 
     loadSidebar: true,
     autoHeader: true,
-    subMaxLevel: 6,
+    subMaxLevel: 2,
     loadNavbar: true,
     basePath: './',
 
