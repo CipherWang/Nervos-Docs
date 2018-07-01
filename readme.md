@@ -5,12 +5,31 @@ This repository is working as both the front page of Nervos Docs and an example 
 
 ## How to Make Another Nervos Dcoument Website in Your Project Repo
 
-### Docsify & Github Page
+### We use Docsify & Github Page
 Nervos Documentents are using an easy generated document site framework [Docsify](https://docsify.js.org/#/). It's an awesome project and we really appreciate the the contributors of this project.
 
 Document files are written in Markdown language.
 
 We use github page for hosting our document sites. On the one hand it enables the realtime updating, version control and online editing; on the other hand, their server are much more relible than ours. After all, they are actually Microsoft now.
+
+### How to make the website
+Install docsify-cli.
+```
+yarn global add docsify-cli
+```
+If you havn't use yarn before, please refer here (https://yarnpkg.com/lang/en/docs/install/).
+
+Get the necessary site files.
+```
+git clone https://github.com/cryptape/Nervos-Docs.git
+```
+Do some customizations by configuring the `script/customization-seting.js` you can make some configurations. 
+
+Then run this command to start the document site service.
+```
+docsify serve
+```
+Open your browser and enter `http://localhost:3000/` to preview your document site.
 
 ### How to Orgnize the Files
 
@@ -48,31 +67,6 @@ If you want to link to one of the markdown files, the path would be something li
 You can learn how do it by just simply refering the `_navbar.md` and `_sidebar.md` files in [this repo](https://github.com/cryptape/Nervos-Docs) as an example.
 
 I have faith in you.
-
-### How to make the website
-#### Get the Files
-```
-git clone https://github.com/cryptape/Nervos-Docs.git
-```
-#### Do Some Customizations
-
-By configuring the `script/customization-seting.js` you can make some configurations. 
-
-#### Give It a Try!
-
-Install docsify-cli first.
-```
-yarn global add docsify-cli
-```
-If you havn't use yarn before, please refer here (https://yarnpkg.com/lang/en/docs/install/).
-
-
-Then run this command to start the document site service.
-```
-docsify serve
-```
-
-Open your browser and enter `http://localhost:3000/` to find your document site.
 
 ### How to put it on Github Page
 
