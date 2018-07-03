@@ -42,19 +42,19 @@ var common = {
         depth: 6,
     },
 
-    plugins: [
-        function (hook, vm) {
-            hook.beforeEach(function (html) {
-                var url = github_url + vm.route.file
-                var editHtml = '[📝 Edit on GitHub](' + url + ')\n'
+    // plugins: [
+    //     function (hook, vm) {
+    //         hook.beforeEach(function (html) {
+    //             var url = github_url + vm.route.file
+    //             var editHtml = '[📝 Edit on GitHub](' + url + ')\n'
 
-                return editHtml +
-                    html +
-                    '\n----\n' +
-                    'Last modified {docsify-updated} ' +
-                    editHtml
-            })
-        }
-    ]
+    //             return editHtml +
+    //                 html +
+    //                 '\n----\n' +
+    //                 '{docsify-updated} ' +
+    //                 editHtml
+    //         })
+    //     }
+    // ]
 
 }
