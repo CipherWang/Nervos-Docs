@@ -1,9 +1,9 @@
 # Nervos Docs
 
-[docs.nervos.org]() is the documententation website for all the Nervos Network related components.
+[docs.nervos.org](https://docs.nervos.org/) is the documentation website for all the Nervos Network related components.
 This repository is working as both the front page of Nervos Docs and an example for building other Nervos related docs.
 
-## How to Make Another Nervos Dcoument Website in Your Project Repo
+## How to Make Another Nervos Document Website in Your Project Repo
 
 ### We use Docsify & Github Page
 Nervos Documentents are using an easy generated document site framework [Docsify](https://docsify.js.org/#/). It's an awesome project and we really appreciate the the contributors of this project.
