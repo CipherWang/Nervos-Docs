@@ -5,6 +5,9 @@
 const default_language = 'zh-CN';
 
 // define is the document supports version
+// if you need to use versionning feature, your documents should be in the folder LANGUAGE/VERSION/xxx.md
+// for example: zh-CN/Latest/nervos.md
+// please pay attention that "Latest" should hava a capital "L", the path may be parsed in a case sensitive manner when hosted on server
 const versionIsSupported = false;
 
 //github url for enabling Edit on GitHub

@@ -10,12 +10,28 @@ if (sessionStorage.getItem("language")) {
     var language = default_language;
 }
 
+if (document.getElementById("tag_language")) {
+    switch (language) {
+        case "zh-CN":
+            document.getElementById("tag_language").innerHTML = "中文";
+            break;
+        default:
+            document.getElementById("tag_language").innerHTML = "English";
+            break;
+    }
+}
+
+
 // add version variable to session storage, if it's not existed
 if (sessionStorage.getItem("version")) {
     var version = sessionStorage.getItem("version");
 } else {
-    sessionStorage.setItem("version", "latest");
-    var version = "latest";
+    sessionStorage.setItem("version", "Latest");
+    var version = "Latest";
+}
+
+if (document.getElementById("tag_version")) {
+    document.getElementById("tag_version").innerHTML = version;
 }
 
 var common = {

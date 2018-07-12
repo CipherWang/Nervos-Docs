@@ -7,6 +7,4 @@ var customization = {
     name: 'Nervos Network', // name of this document
 
     homepage: 'nervos.md',// the home page, extension name '.md' cannot be omitted.
-
-    
 }
