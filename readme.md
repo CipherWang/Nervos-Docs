@@ -77,3 +77,7 @@ Done and check it out!
 
 ### Localization (Translation)
 We are still experimenting how to do the localization for all project effectively. 
+
+## FAQ
+#### 1. My sidebar file doesn't load correctly.
+You may find your site works fine on your local machine but missing the sidebar when it's on GitHub page. This is because GitHub Pages ignores all the files started with `_` by default. Adding an empty file named `.nojekyll` to your `/docs` folder can turn this setting off.
