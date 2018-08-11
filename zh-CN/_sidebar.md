@@ -2,4 +2,4 @@
 - [AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)
 - [CITA](https://cryptape.github.io/cita/)
 - [Neuron](https://cryptape.github.io/Neuron-Android/#/)
-- [Microscope](https://cryptape.github.io/Microscope/)
+- [Microscope](https://cryptape.github.io/microscope/)
