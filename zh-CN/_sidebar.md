@@ -1,5 +1,5 @@
 - [Nervos 简介](nervos.md)
-- [AppChain](https://cryptape.github.io/Nervos-AppChain-Docs/)
+- [AppChain](https://cryptape.github.io/nervos-appchain-docs/)
 - [CITA](https://cryptape.github.io/cita/)
-- [Neuron](https://cryptape.github.io/Neuron-Android/#/)
+- [Neuron](https://cryptape.github.io/neuron-android/#/)
 - [Microscope](https://cryptape.github.io/microscope/)
