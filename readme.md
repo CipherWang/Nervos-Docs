@@ -51,7 +51,7 @@ You can learn how do it by just simply refering the `_sidebar.md` file in this r
 ### How to make the website
 Install docsify-cli.
 ```
-yarn global add docsify-cli
+npm i docsify-cli -g
 ```
 If you havn't use yarn before, please refer here (https://yarnpkg.com/lang/en/docs/install/).
 
