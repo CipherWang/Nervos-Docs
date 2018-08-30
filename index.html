@@ -12,54 +12,38 @@
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-
+    <link rel="stylesheet" href="https://cdn.cryptape.com/styles/docs.css">
 </head>
 
 <body>
 
-    <!-- configuration of navigation bar -->
+
     <nav class="app-nav no-badge">
         <ul>
-            <!-- links to other docs -->
             <li>
-                <a href="https://docs.nervos.org/">Nervos</a>
+                <a href="#" class="app-nav-1">Nervos</a>
                 <ul>
                     <li>
-                        <a href="https://cryptape.github.io/nervos-appchain-docs/"  target="_about">AppChain</a>
+                        <a href="https://cryptape.github.io/nervos-appchain-docs/" target="_about">AppChain</a>
                     </li>
                     <li>
-                        <a href="https://cryptape.github.io/cita/"  target="_about">CITA</a>
+                        <a href="https://cryptape.github.io/cita/" target="_about">CITA</a>
                     </li>
                     <li>
-                        <a href="https://cryptape.github.io/neuron-android/#/"  target="_about">Neuron</a>
+                        <a href="https://cryptape.github.io/neuron-android/#/" target="_about">Neuron</a>
                     </li>
                     <li>
-                        <a href="https://cryptape.github.io/nervosj/"  target="_about">nervosj</a>
+                        <a href="https://cryptape.github.io/nervosj/" target="_about">nervosj</a>
                     </li>
                 </ul>
             </li>
-            <!-- language selection (uncomment this section upon your needs) -->
-            <!-- <li>
-                <p id="tag_language">Language</p>
+            <!-- <li id="tag_language">Language
                 <ul>
                     <li>
-                        <a href="" onclick="setLang('en-US');">English</a>
+                        <a href="" onclick="setLang('en-US');">EN</a>
                     </li>
                     <li>
                         <a href="" onclick="setLang('zh-CN');">中文</a>
-                    </li>
-                </ul>
-            </li> -->
-            <!-- version selection (uncomment this section upon your needs) -->
-            <!-- you can add a new version by adding another <li></li> tag -->
-            <!-- <li>
-                <p id="tag_version">Version</p>
-                <ul>
-                    <li>
-                        <a href="" onclick="setVersion('Latest');">Latest</a>
-                    </li>
-                    <li>
-                        <a href="" onclick="setVersion('v0.16');">v0.16</a>
                     </li>
                 </ul>
             </li> -->
@@ -69,10 +53,6 @@
     <script>
         function setLang(language) {
             sessionStorage.setItem("language", language);
-        }
-
-        function setVersion(version) {
-            sessionStorage.setItem("version", version);
         }
     </script>
 
@@ -89,6 +69,20 @@
     <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
     <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
     <script src="https://unpkg.com/docsify-copy-code@2"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122001869-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122001869-2');
+    </script>
+    <script src="https://cdn.cryptape.com/scripts/external.js"></script>
+
 
 </body>
 
